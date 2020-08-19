@@ -1,0 +1,164 @@
+html,body{
+    height: 100%;
+    
+}
+body{
+    padding-top: 60px;
+}
+.huge{
+    font-size: 40px;
+}
+.tag-boxes .panel-primary{
+    border:1px solid #2fa4e7;
+}
+
+.tag-boxes .panel-red{
+    color: white;
+    background: #d9534f;
+}
+
+.tag-boxes .panel-red a{
+    color: #d9534f;
+}
+
+.tag-boxes .panel-red a:hover{
+    color: #b52b27;
+}
+
+.tag-boxes .panel-yellow{
+    color: white;
+    background: #f0ad4e;
+}
+
+.tag-boxes .panel-yellow a{
+    color: #f0ad4e;
+}
+
+.tag-boxes .panel-yellow a:hover{
+    color: #df8a13;
+}
+
+.tag-boxes .panel-green{
+    color: white;
+    background: #5cb85c;
+}
+
+.tag-boxes .panel-green a{
+    color: #5cb85c;
+}
+
+.tag-boxes .panel-green a:hover{
+    color: #3d8b3d;
+}
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+.body-section{
+    padding-bottom: 70px;
+}
+
+footer{
+    background: #2fa4e7;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.teach img{
+    width: 100%;
+    margin: 0px auto 0px 10px;;
+    
+    
+}
+.teach{
+    text-align: center;
+    background: white;
+    border: 1px solid #e3e3e3;
+    margin-top: -20px;
+    padding: 20px;
+    margin-bottom:50px;
+    
+}
+.teach .col-md-3{
+    border-right: 1px solid #e3e3e3;
+}
+
+.tek .col-md-4{
+    margin-bottom: 25px;
+}
+.tea h4{
+    color: white;
+}
+.mypagenation{
+    text-align: center;
+}
+.pagination > li > a{
+    color: #24a7cf;
+    padding: 15px 25px;
+    font-size: 18px;
+    
+}
+.color1{
+    background-color:orange;
+    color:white;
+    
+}
+.color2{
+    background-color:#31480A;
+    color:white;
+    
+}
+.color3{
+    background-color:#7105F7;
+    color:white;
+}
+.alunmi img{
+    width: 50px;;
+    height: 50px;
+}
+.a{
+   margin-top: 10px;
+}
+.gallery img{
+    width: 120px;;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:786px){
+    
+    .teach img{
+        width: 50%;
+        margin: 0px auto 0px auto;
+        
+    }  
+    footer{
+        font-size: 9px;
+    }
+    
+    
+    
+}

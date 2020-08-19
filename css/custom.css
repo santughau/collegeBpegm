@@ -1,0 +1,95 @@
+body{
+    background-color: #EEEDED;
+    margin-top: 70px;
+   }
+h1,h2,h3,h4,h5,h6{
+    color: #24a7cf;
+}
+
+.welcome{
+    text-align: justify;
+    background: white;
+    border: 1px solid #e3e3e3;
+    margin-top: -20px;
+    padding: 20px;
+}
+.foot{
+    margin-top: 10px;
+    background: white;
+    border: 1px solid #e3e3e3;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.principal-photo img{
+    width: 100%;
+}
+.widget{
+    background: white;
+    border: 1px solid #e3e3e3;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.principal{
+    text-align: justify;
+    background: white;
+    border: 1px solid #e3e3e3;
+    
+    padding: 20px;
+}
+.teacher{
+   text-align: justify;
+    background: white;
+    border: 1px solid #e3e3e3;
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+.teacher img{
+    width: 50%;
+     margin: 0px auto 25px auto;
+    height: 150px;
+}
+.mypagenation{
+    text-align: center;
+}
+.pagination > li > a{
+    color: #24a7cf;
+    padding: 15px 25px;
+    font-size: 18px;
+    
+}
+.top-padd{
+    padding-top: 12px;
+}  
+.line h3{
+    line-height: 30px;
+}
+.gallery img{
+    width: 100%;
+}
+
+
+@media(max-width:786px){
+    
+    .principal-photo img{
+        width: 90%;
+        margin: 0px auto 25px auto;
+        padding: 0px auto 25px auto;
+    }
+    .teacher img{
+        width: 70%;
+        
+        margin: 0px auto 25px auto;
+    }
+    .teacher .gallery img{
+        width: 100%;
+    }
+    .foot{
+        font-size: 8px;
+        margin-top: 1px;
+        
+    }
+   
+}
+
